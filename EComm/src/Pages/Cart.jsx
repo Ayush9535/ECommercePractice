@@ -12,6 +12,10 @@ const Cart = () => {
                 Cart Items here
             </div>
         </div>
+
+        <div className='footer flex'>
+          Made By Ayush with 🤍
+        </div>
     </div>
   )
 }
