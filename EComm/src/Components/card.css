@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Quicksand:wght@300..700&display=swap');
+
+.card{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 0 4px 4px 0 rgb(91, 91, 91);
+}
+
+.img-div{
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    height: 250px;
+    background-color: #9BD9E2;
+    overflow: hidden;
+}
+
+.img-div img{
+    width: 100%;    
+}
+
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+
+.infodiv{
+    border-radius: 0px 0px 10px 10px;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+h3{
+    color: orange;
+    margin-top: 10px;
+}
+
+.btns{
+    position: absolute;
+    right: 20px;
+    bottom: 115px;
+}
+
+.fav , .addCart{
+    background-color: orange;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
